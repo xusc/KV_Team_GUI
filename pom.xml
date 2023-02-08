@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>test</groupId>
+    <artifactId>KV_Team_GUI</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>KV_Team_GUI</name>
+    <description>KV_Team_GUI</description>
+
+    <packaging>jar</packaging>
+
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>controlP5</groupId>
+            <artifactId>controlP5</artifactId>
+            <version>1</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/resources/lib/controlP5.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>core</groupId>
+            <artifactId>core</artifactId>
+            <version>1</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/resources/lib/core.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>RXTXcomm</groupId>
+            <artifactId>RXTXcomm</artifactId>
+            <version>1</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/resources/lib/RXTXcomm.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>serial</groupId>
+            <artifactId>serial</artifactId>
+            <version>1</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/src/main/resources/lib/serial.jar</systemPath>
+        </dependency>
+    </dependencies>
+
+</project>
